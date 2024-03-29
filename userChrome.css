@@ -1,0 +1,27 @@
+.tabbrowser-tab {
+  visibility: collapse;
+}
+
+#nav-bar {
+  margin-top: -39px;
+  box-shadow: none !important;
+}
+
+#main-window[inFullscreen="true"] #sidebar-box,
+#main-window[inFullscreen="true"] #sidebar-box + splitter {
+  visibility: collapse;
+}
+
+#sidebar-box #sidebar-header {
+  display: none !important;
+}
+
+#navigator-toolbox {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+}
+
+.titlebar-button {
+  display: none;
+}
